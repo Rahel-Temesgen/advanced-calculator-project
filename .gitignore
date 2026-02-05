@@ -4,11 +4,6 @@ node_modules/
 # Environment files
 .env
 
-# Build output (generated CSS)
-# Only ignore output.css if you are keeping index.html outside dist/
-# If you commit the entire dist/ folder (HTML + CSS), remove this line
-/dist/output.css
-
 # OS files
 .DS_Store
 Thumbs.db
