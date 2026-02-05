@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-gradient-to-r from-bright-blue to-bright-green font-inter;
+    }
+}
+
+@layer components {
+    .cell, .btn {
+        @apply py-6 border border-white hover:bg-white hover:cursor-pointer;
+    }
+}
