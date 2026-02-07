@@ -563,7 +563,7 @@ body {
   font-family: Inter, sans-serif;
 }
 
-.cell, .btn {
+.operand, .operator, .btn {
   border-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
@@ -571,7 +571,7 @@ body {
   padding-bottom: 1.5rem;
 }
 
-.cell:hover, .btn:hover {
+.operand:hover, .operator:hover, .btn:hover {
   cursor: pointer;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
@@ -701,11 +701,4 @@ body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-@media (min-width: 640px) {
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
 }

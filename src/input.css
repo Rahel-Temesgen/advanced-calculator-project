@@ -9,7 +9,7 @@
 }
 
 @layer components {
-    .cell, .btn {
+    .operand, .operator, .btn {
         @apply py-6 border border-white hover:bg-white hover:cursor-pointer;
     }
 }
